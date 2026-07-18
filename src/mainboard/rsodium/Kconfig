@@ -1,0 +1,17 @@
+## SPDX-License-Identifier: GPL-2.0-only
+
+if VENDOR_RSODIUM
+
+choice
+	prompt "Mainboard model"
+
+source "src/mainboard/rsodium/*/Kconfig.name"
+
+endchoice
+
+source "src/mainboard/rsodium/*/Kconfig"
+
+config MAINBOARD_VENDOR
+	default "R-SODIUN Technology"
+
+endif # VENDOR_RSODIUM

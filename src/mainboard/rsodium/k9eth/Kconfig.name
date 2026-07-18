@@ -1,0 +1,4 @@
+## SPDX-License-Identifier: GPL-2.0-only
+
+config BOARD_RSODIUM_K9ETH
+	bool "K9-ETH"
