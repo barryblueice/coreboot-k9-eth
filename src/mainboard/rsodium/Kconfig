@@ -12,6 +12,6 @@ endchoice
 source "src/mainboard/rsodium/*/Kconfig"
 
 config MAINBOARD_VENDOR
-	default "R-SODIUN Technology"
+	default "R-SODIUM Technology"
 
 endif # VENDOR_RSODIUM
